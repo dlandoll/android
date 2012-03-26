@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="git://github.com/"
            review="review.cyanogenmod.com" />
 
   <default revision="refs/heads/ics"
@@ -35,7 +35,7 @@
   <project path="device/samsung/p5-common" name="CyanogenMod/android_device_samsung_p5-common" />
   <project path="device/samsung/toro" name="CyanogenMod/android_device_samsung_toro" />
   <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
-  <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
+  <project path="device/ti/panda" name="dlandoll/android_device_ti_panda" revision="master" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -250,7 +250,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cm" name="dlandoll/android_vendor_cm" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-video" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
