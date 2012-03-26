@@ -9,7 +9,7 @@
            review="review.cyanogenmod.com" />
 
   <remote  name="githubssh"
-           fetch="git@github.com:dlandoll/" />
+           fetch="ssh://git@github.com/dlandoll/" />
 
   <default revision="refs/heads/ics"
            remote="github"
