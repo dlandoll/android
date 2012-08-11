@@ -30,7 +30,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="device/ti/panda" name="android_device_ti_panda" remote="githubssh" revision="master" />
+  <project path="device/ti/panda" name="dlandoll/android_device_ti_panda" remote="private" revision="master" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -187,7 +187,7 @@
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="githubssh" revision="master" />
+  <project path="hardware/ti/wpan" name="dlandoll/android_hardware_ti_wpan" remote="private" revision="master" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
